@@ -6,6 +6,7 @@ A machine learning project that predicts whether a person has heart disease base
 
 ## 📁 Project Structure
 
+```
 heart-disease-prediction/
 ├── data/
 │   └── heart.csv
@@ -14,6 +15,7 @@ heart-disease-prediction/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
@@ -62,20 +64,28 @@ Logistic Regression performed better and was used for the predictive system.
 ## ⚙️ How to Run
 
 1. Clone the repository
+```
 git clone https://github.com/Sofyane00/heart-disease-prediction.git
 cd heart-disease-prediction
+```
 
 2. Create a virtual environment and activate it
+```
 python3 -m venv venv
 source venv/bin/activate
+```
 
 3. Install the dependencies
+```
 pip install -r requirements.txt
+```
 
 4. Launch Jupyter Notebook
+```
 jupyter notebook
+```
 
-5. Open notebooks/01_EDA_and_baseline.ipynb and run all cells.
+5. Open `notebooks/01_EDA_and_baseline.ipynb` and run all cells.
 
 ---
 
